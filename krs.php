@@ -219,8 +219,43 @@
                 </div>           
             </div>  
         </div>
+        <div class="wrapper-personal" id="personal">
+            <div class="wrapper-bg">
+                <div class="content">
+                    <div class="personal">
+                        <h3>Pilih Mata Kuliah</h3>
+                    </div>
+                    <section>
+                        <form action="/krs.php" method="POST"></form>
+                        <table>
+                            <tr>
+                                <th>Nama</th>
+                                <td><input type="text" name="nama"></td>
+                            </tr>
+                            <tr>
+                                <th>NIM</th>
+                                <td><input type="text" name="nim"></td>
+                            </tr>
+                            <tr>
+                                <th>Nomor HP</th>
+                                <td>081393254809</td>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <td>arga_muhammad@yahoo.co.id</td>
+                            </tr>
+                            <tr>
+                                <th>Kota Domisili</th>
+                                <td>Jakarta Selatan</td>
+                            </tr>
+                        </table>
+                        <input type="submit" name="submit" value="Simpan"/>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>        
-        
+</div>     
     
    
 
